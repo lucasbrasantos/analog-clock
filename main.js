@@ -17,17 +17,9 @@ setInterval(() =>{
     // let hhDeg = parseInt(hh) * 30 + (30/100)*(mmDeg/3.6);
     let hhDeg = parseInt(hh) * 30 + (30*mmDeg)/360;
 
-    
-
-    
-    
-    
-
-
     sec.rotate = `${ssDeg}deg`;
     min.rotate = `${mmDeg}deg`;
     hr.rotate = `${hhDeg}deg`;
-    
     
     
 })
